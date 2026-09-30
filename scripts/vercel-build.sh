@@ -16,7 +16,7 @@ rustup target add wasm32-unknown-unknown
 
 if ! command -v trunk >/dev/null 2>&1; then
   mkdir -p "$HOME/.local/bin"
-  curl -fsSL https://github.com/trunk-rs/trunk/releases/latest/download/trunk-x86_64-unknown-linux-gnu.tar.gz \
+  curl -fsSL https://github.com/trunk-rs/trunk/releases/latest/download/trunk-x86_64-unknown-linux-musl.tar.gz \
     | tar -xz -C "$HOME/.local/bin"
 fi
 
