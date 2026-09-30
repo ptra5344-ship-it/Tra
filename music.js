@@ -9,5 +9,5 @@
     if (audio.paused) { audio.play(); btn.textContent = "🔊"; }
     else { audio.pause(); btn.textContent = "🔇"; }
   };
-  document.body.appendChild(btn);
+  document.documentElement.appendChild(btn);
 })();
