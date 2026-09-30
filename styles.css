@@ -302,3 +302,13 @@ footer a:focus-visible {
   .card:hover .thumb img { transform: none; }
   .btn:active { transform: none; }
 }
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url("/bg.jpg") center / cover no-repeat;
+}
