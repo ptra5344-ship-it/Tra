@@ -282,6 +282,10 @@ fn app() -> Html {
 
             <main>{ body }</main>
 
+            <footer>
+                <p>{ "Developer by Tra" }</p>
+            </footer>
+
         </>
     }
 }
