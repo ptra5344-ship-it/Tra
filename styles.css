@@ -312,3 +312,17 @@ body::before {
     linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
     url("/bg.jpg") center / cover no-repeat;
 }
+
+html {
+  min-height: 100%;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url("/bg.jpg") center / cover fixed no-repeat !important;
+}
+body,
+main {
+  background: transparent !important;
+}
+body::before {
+  display: none !important;
+}
