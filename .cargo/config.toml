@@ -1,4 +1,0 @@
-# Some web-sys APIs (e.g. Clipboard) are gated behind this cfg on certain
-# versions.  It is harmless when the APIs are already stable.
-[target.wasm32-unknown-unknown]
-rustflags = ["--cfg=web_sys_unstable_apis"]
